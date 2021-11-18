@@ -1,0 +1,21 @@
+{
+  "name": "servicecdr",
+  "version": "1.0.0",
+  "description": "service receive call detail records from ats, handle them and writing in database",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket",
+    "mysql",
+    "typescript"
+  ],
+  "author": "kraldraav@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "typescript": "^4.0.3"
+  }
+}
